@@ -80,10 +80,10 @@ export class ChangePassword extends PureComponent<Props, State> {
     return (
       <div className="login-inner-box" id="change-password-view">
         <div className="text-left login-change-password-info">
-          <h5>更改密码</h5>
-          在您开始使用精妙的仪表板之前，我们需要您通过更改密码来确保帐户安全。
+          <h5>更改密碼</h5>
+          在您開始使用精妙的儀表板之前，我们需要您通過更改密碼來確帳户安全。
           <br />
-          您可以稍后再次更改密码。
+          您可以稍後再次更改密碼。
         </div>
         <form className="login-form-group gf-form-group">
           <div className="login-form">
@@ -93,7 +93,7 @@ export class ChangePassword extends PureComponent<Props, State> {
               name="newPassword"
               className="gf-form-input login-form-input"
               required
-              placeholder="新密码"
+              placeholder="新密碼"
               onChange={this.onNewPasswordChange}
               ref={input => {
                 this.userInput = input;
@@ -107,14 +107,14 @@ export class ChangePassword extends PureComponent<Props, State> {
               className="gf-form-input login-form-input"
               required
               ng-model="command.confirmNew"
-              placeholder="确认新密码"
+              placeholder="確認新密碼"
               onChange={this.onConfirmPasswordChange}
             />
           </div>
           <div className="login-button-group login-button-group--right text-right">
-            <Tooltip placement="bottom" content="如果您跳过，则下次登录时将提示您更改密码。">
+            <Tooltip placement="bottom" content="如果您跳過，則下次登錄時將提示您更改密碼。">
               <a className="btn btn-link" onClick={this.onSkip} aria-label={e2e.pages.Login.selectors.skip}>
-                跳过
+                跳過
               </a>
             </Tooltip>
 
