@@ -81,7 +81,7 @@ export class ChangePassword extends PureComponent<Props, State> {
       <div className="login-inner-box" id="change-password-view">
         <div className="text-left login-change-password-info">
           <h5>更改密碼</h5>
-          在您開始使用精妙的儀表板之前，我们需要您通過更改密碼來確帳户安全。
+          在您開始使用精妙的儀表板之前，我們需要您通過更改密碼來確帳户安全。
           <br />
           您可以稍後再次更改密碼。
         </div>
