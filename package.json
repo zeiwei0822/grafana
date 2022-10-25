@@ -296,6 +296,6 @@
     "puppeteer": "node_modules/puppeteer-core"
   },
   "engines": {
-    "node": "14.8.0"
+    "node": "10.19.0"
   }
 }
